@@ -46,7 +46,7 @@ def run():
     chrome.get(url)
     print("第1页书单")
     extract_data(chrome.page_source)
-    for i in range(2, 3):
+    for i in range(2, 101):
         print(f"第{i}页书单")
         time.sleep(1)  # 防⽌⽹⻚加载速度慢，等1秒再翻页
         to_next_page()
