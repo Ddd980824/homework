@@ -50,7 +50,7 @@ def building_message(url):
 
 
 data = []
-for i in tqdm(range(1, 150)):
+for i in tqdm(range(1, 151)): #爬取150页数据
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"}
     url = "https://sh.diandianzu.com/listing/p"+str(i)+"/"
