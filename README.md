@@ -51,7 +51,12 @@
 ```
 chrome浏览器驱动下载网址：https://registry.npmmirror.com/binary.html?path=chromedriver/
 ```
-
+- 将下载的驱动路径在项目中进行修改，将其绝对路径改动在注释为实例化⼀个chrome浏览器对象的位置
+```
+# 实例化⼀个chrome浏览器对象
+s = Service(r"D:\chromedriver_win32\chromedriver.exe")
+chrome = webdriver.Chrome(service=s)
+```
 - **防⽌⽹⻚加载速度慢，设置翻页休眠时间**，确保网页信息可全部加载，可以自行根据网速调整，经过实验一般2-10s
 
 - 本次爬取的是100页书单，可以根据需要进行调整，但注意不要超过网页最大页数
