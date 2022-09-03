@@ -48,6 +48,9 @@
  
 ### 注意事项
 - 爬取前需要下载和配置selenium驱动，本项目用Selenium驱动Chrome浏览器，故**需下载谷歌浏览器及相应版本的驱动**
+```
+chrome浏览器驱动下载网址：https://registry.npmmirror.com/binary.html?path=chromedriver/
+```
 
 - **防⽌⽹⻚加载速度慢，设置翻页休眠时间**，确保网页信息可全部加载，可以自行根据网速调整，经过实验一般2-10s
 
